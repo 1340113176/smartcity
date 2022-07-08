@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="首页"
+        android:icon="@drawable/yuandain_heiq"
+        android:id="@+id/shouye"/>
+    <item
+        android:title="全部服务"
+        android:icon="@drawable/yuandain_heiq"
+        android:id="@+id/quanbufuwu"/>
+    <item
+        android:title="智慧社区"
+        android:icon="@drawable/yuandain_heiq"
+        android:id="@+id/zhihuishequ"/>
+    <item
+        android:title="新闻"
+        android:icon="@drawable/yuandain_heiq"
+        android:id="@+id/shujufenxi"/>
+    <item
+        android:title="个人中心"
+        android:icon="@drawable/yuandain_heiq"
+        android:id="@+id/gerenzhongixn"/>
+</menu>

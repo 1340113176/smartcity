@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D8D8"
+    android:padding="20dp">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                android:text="佛山“北约总部大厦”走红网络，物业：为村级工业园，已存在十几年"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/huxian_beijing3"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="       “北约总部大厦”在佛山？日前，不少人发布该大厦图片调侃，并有很多点赞。
+
+地图显示，北约总部大厦位于广东佛山市南海区，为瀚天科技城的办公楼。
+
+3月28日上午，瀚天科技城一工作人员告诉九派新闻，“我们这个村叫北约村，这就是一个村级的工业园，已有十几年了。\n       据南方日报报道，2009年南海区桂城街道启动了广东都市型产业基地建设，瀚天科技城以“产业社区”亮相。瀚天科技城官方公众号介绍，瀚天科技城是佛山科技类企业最集中的区域之一，集聚了电子信息类、节能环保类、智能科技类、文化创意及现代服务类企业近400家。
+
+而北约总部大厦，是瀚天科技城的一座办公楼。图片显示，该办公楼高4层，紧邻高速公路。
+
+“之所以叫北约总部大厦，是因为我们这个村就是北约村，我们本地人根本不会觉得奇怪。”上述工作人员说，她在科技城工作十几年，对网友的调侃感到惊讶，“我也是第一次看到，有人联想到国际上的北约组织。”
+
+南海区的行政区划详情显示，桂城街道下辖45个社区，其中就包括北约、东约、西约和南约社区。
+
+该工作人员表示，在科技城上班的大多数为附近居民，“没有见过来拍照打卡的游客。”她同时提醒，疫情期间，园区规定不聚集，非工作人员无法进入。”"/>
+            <TextView
+                android:layout_marginTop="80dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="2021-03-05 09:00"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

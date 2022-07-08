@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout 布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--  上下滑动控件  -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- 轮播图控件 -->
+            <com.youth.banner.Banner
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:id="@+id/shouye_banner"/>
+            <!-- 应用服务 控件 -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shouye_fuwu"
+                android:overScrollMode="never"/>
+            <!-- 更多服务 按钮控件 -->
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shouye_gengduofuwu"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                app:cornerRadius="12dp"
+                android:text="更多服务"
+                app:strokeWidth="3dp"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:backgroundTint="#FFFFFf"
+                app:rippleColor="@color/colorPrimary"/>
+            <!-- 新闻分类 控件 -->
+            <com.google.android.material.tabs.TabLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="scrollable"
+                android:id="@+id/shouye_Xinwen1"/>
+            <!-- 左右滑动 控件 -->
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shouye_xinwen2"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

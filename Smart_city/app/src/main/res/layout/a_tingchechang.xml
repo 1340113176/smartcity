@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E1E6">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <include
+            layout="@layout/top_toolbar"/>
+        <ImageView
+            android:id="@+id/tingche_lishijilu"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/lishitingche"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center|right"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_tingchechang_list" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tingchechang_button"
+            android:textColor="@color/colorPrimaryDark"
+            app:cornerRadius="8dp"
+            android:text="查看更多"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:backgroundTint="#FFFFFf"
+            app:rippleColor="@color/colorPrimary"/>
+    </RelativeLayout>
+</LinearLayout>

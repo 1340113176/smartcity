@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D8D8"
+    android:padding="20dp">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:text="物业通知"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="尊敬的各位业主大家好!\n\n
+    ***小区2021年度物业费及车位服务费收缴工作已正式开始缴费时间：2021年6月1日至2021年8月17日\n\n
+
+   收费标准：住宅1.38元/平方/月；车位服务费300元/年（无车位的不用交）\n\n
+
+   缴费地点：某某小区服务中心\n\n
+   本次缴费支持微信支付宝\n\n
+
+   联系电话:0000-000000\n"></TextView>
+    <TextView
+        android:layout_marginTop="80dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="2021-06-01 00:00"/>
+</LinearLayout>

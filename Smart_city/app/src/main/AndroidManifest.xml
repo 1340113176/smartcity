@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.w_one">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:networkSecurityConfig="@xml/network_sing"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.activity.AllFuWuAC"/>
+        <activity android:name=".ui.activity.LoginAc"/>
+        <activity android:name=".ui.activity.YiJanFanKuiAc"/>
+        <activity android:name=".ui.activity.XiuGaiMiMaAc"/>
+        <activity android:name=".ui.activity.GeRenXinXiAc"/>
+        <activity android:name=".ui.activity.YindaoAC"/>
+        <activity android:name=".ui.activity.SouSuoAc"/>
+        <activity android:name=".ui.activity.TingCheChnagAc"/>
+        <activity android:name=".ui.activity.TingCheChnagAc2"/>
+        <activity android:name=".ui.activity.TingCheChnagXiangqingAc"/>
+        <activity android:name=".ui.activity.TingCheChnagLiShiAc"/>
+        <activity android:name=".ui.activity.shequ.SheQuXinWen1"/>
+        <activity android:name=".ui.activity.shequ.SheQuXinWen2"/>
+        <activity android:name=".ui.activity.shequ.SheQuXinWen3"/>
+        <activity android:name=".ui.activity.shequ.PingJiaAC"/>
+        <activity android:name=".ui.activity.shequ.WuYeGuanLiAc"/>
+        <activity android:name=".ui.activity.shequ.BannerXinagqingAC"/>
+        <activity android:name=".ui.activity.shequ.BannerXinagqingAC2"/>
+        <activity android:name=".ui.activity.ZhuceAC"/>
+
+        <activity android:name=".backup.LLoginAcc"/>
+        <activity android:name=".backup.ZZhuceAcc"/>
+        <activity android:name=".backup.GGeRenXinXiAcc"/>
+        <activity android:name=".backup.XXiuGaiMiMaAcc"/>
+
+        <activity android:name=".ui.activity.AppStartAc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

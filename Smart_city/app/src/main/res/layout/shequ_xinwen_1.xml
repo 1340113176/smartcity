@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D8D8"
+    android:padding="20dp">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                android:text="专家：饮用水对调节体质没有作用！表示不用太关注水的酸碱度，最好就是喝白开水"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/huxian_beijing3"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="       专家表示饮用水对调节体质没有任何作用，尽管碱性水能“治病”和“酸碱体质论”的养生大骗局早被揭穿，但市场上仍有水企打出碱性水的概念推销产品。最近，云南昆明一家水企就宣称碱性水有治疗功效，还在公众号上发布了一些所谓的“疗效”视频，由患者现身讲述。打着“有功效”的碱性水品牌不止这一家。记者走访市场发现，PH值8-9、小分子备孕水、低钠低糖等宣传概念是五花八门。专家表示，碱性水不能替代药物。对于痛风或者是胃酸过多的患者来说，碳酸氢钠对碱化尿液或者是缓解胃酸是有一定的作用，然而弱碱性水里碳酸氢钠的含量少之又少。饮用水的功能是补充体内水分，对调节体质没有任何作用。专家表示，不用太关注水的酸碱度，但是最好就是喝白开水。"></TextView>
+            <TextView
+                android:layout_marginTop="80dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="2021-03-26 09:00"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

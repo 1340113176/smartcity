@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/top_toolbar"/>
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/huxian_beijing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="标题"
+            android:id="@+id/yijianfankui_biaoti"/>
+        <EditText
+            android:id="@+id/yijianfankui_neirong"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="150字以内"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yijianfankui_button"
+            android:textColor="@color/colorPrimaryDark"
+            app:cornerRadius="8dp"
+            android:text="新增意见"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:backgroundTint="#FFFFFf"
+            app:rippleColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</LinearLayout>
